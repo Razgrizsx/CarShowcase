@@ -17,7 +17,8 @@ export default function Hero(){
                 </h1>
                 <p className='hero__subtitle'>Renta un auto sin esfuerzo con nuestro sistema de reserva especial.</p>
                 <Button 
-                    title='Explorar' 
+                    title='Explorar'
+                    typebtn='button'
                     containerStyles="bg-red-accent-200 text-white rounded-full mt-10" 
                     click={scroll}/>
             </div>
